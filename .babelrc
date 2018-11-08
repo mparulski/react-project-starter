@@ -2,7 +2,8 @@
   "presets": [
     "@babel/env",
     "@babel/react",
-    "@babel/typescript"
+    "@babel/typescript",
+    "flow"
   ],
   "plugins": [
     "@babel/plugin-transform-arrow-functions",
