@@ -1,0 +1,1 @@
+npx @mparulski/es-project-maker --webpackDevConfig=__config\webpack.dev.config.js
