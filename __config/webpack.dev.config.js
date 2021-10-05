@@ -1,4 +1,5 @@
 const path = require("path");
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = () => ({
     entry: `./src/App.tsx`,
@@ -7,4 +8,9 @@ module.exports = () => ({
         filename: "app.min.js",
         crossOriginLoading: "anonymous"
     },
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, "../public/index.html")
+        })
+      ],
 })
