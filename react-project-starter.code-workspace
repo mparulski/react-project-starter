@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.fontFamily": "'Source Code Pro',Consolas, 'Courier New', monospace",
+    "editor.formatOnSave": true,
+    "eslint.options": {
+      "configFile": "node_modules/mp-scripts/config/eslintrc.js"
+    },
+    "eslint.enable": true,
+    "files.eol": "\n",
+    "prettier.eslintIntegration": true
+  }
+}

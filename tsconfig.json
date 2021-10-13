@@ -15,7 +15,6 @@
       "esnext"
     ],
     "module": "esnext",
-    "moduleResolution": "node",
     "noEmit": false,
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
