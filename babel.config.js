@@ -3,15 +3,9 @@ module.exports = {
     [
       "@babel/preset-env",
       {
+        "modules": false,
         "targets": {
           "browsers": "cover 99.5%, last 3 versions, not ie 11"
-        }
-      }
-    ],
-    [
-      {
-        "targets": {
-          "node": "current"
         }
       }
     ],
@@ -26,5 +20,23 @@ module.exports = {
     "@babel/plugin-proposal-throw-expressions",
     "@babel/plugin-transform-arrow-functions",
     "@babel/plugin-transform-runtime"
-  ]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "modules": "commonjs"
+          }
+        ],
+        [
+          "@babel/preset-react",
+          {
+            "runtime": "automatic"
+          }
+        ]
+      ]
+    }
+  }
 }

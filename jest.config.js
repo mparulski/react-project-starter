@@ -7,7 +7,6 @@ module.exports = {
     "json",
     "node"
   ],
-  "notify": true,
   "testMatch": [
     "**/__tests__/**/?(*.)+(spec|test).js?(x)",
     "**/?(*.)+(spec|test).js?(x)"
